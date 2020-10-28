@@ -1,0 +1,17 @@
+/* Style all font awesome icons */
+.fa {
+  padding: 15px;
+  margin-left: 10px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none !important;  
+  float: left;
+  /* For Round Buttons */
+  /*border-radius: 50%;*/ 
+}
+
+/* Add a hover effect if you want */
+.fa:hover {
+  opacity: 0.7;
+}

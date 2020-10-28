@@ -1,0 +1,63 @@
+.navbar {
+    margin-bottom: 0;
+    border-radius: 0;
+    z-index: 1;
+    position: sticky !important;
+    top: 0 !important;
+    width: 110% !important;
+}
+
+#sidenav {
+    height: 100%;
+    width: 250px;
+    position: fixed;
+    z-index: 0;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    padding-top: 80px;
+}
+
+#sidenav a {
+    padding: 6px 6px 6px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+}
+
+#sidenav a:hover {
+    color: #f1f1f1;
+}
+
+#main {
+    margin-left: 150px;
+}
+
+#BlogTitle {
+    width: 300px;
+    text-align: left;
+    padding-left: 50px;
+}
+
+#BlogData {
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+#BlogBody {
+    margin: auto;
+    width: 65%;
+    height: 70%;
+    background-color: white;
+    border: 2px inset grey;    
+    border-radius: 5px;
+    margin-bottom: 8em;
+}
+  
+.blogPosts {
+    color: white !important;
+    font-size: 20px !important;
+    text-align: left;
+}
