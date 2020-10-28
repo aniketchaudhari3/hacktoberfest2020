@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title class="Name"></title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">  
+
+  <!-- Icon -->
+  <link rel="icon" type="image/png" sizes="32x32" href="./static/favicon.ico">
+
+  <!-- Add icon library -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="./static/style.css">
+  <link rel="stylesheet" href="./static/blog.css">
+
+  <link rel="stylesheet" href="./static/SocialMedia.css">
+
+</head>
+<body onload="onLoad(), LoadBlogPost()">
+
+<nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+      <a class="navbar-brand" href="/"><img class="Logo" src="" height="100%"></a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav">
+        <li><a href="/">Home</a></li>
+        <li class="active"><a href="#">Blog</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+  
+<div id="sidenav">
+</div>
+
+<div id="main" class="container-fluid text-center">
+  <br>
+  <h1 class="Name" style="font-family: 'Amatic SC', cursive; font-size: 400%;"></h1>    
+  
+  <br>
+  <br>
+  <br>
+
+  <!-- Blog Body -->
+  <div id="BlogBody">
+    <h2 id="BlogTitle"></h2>
+    <hr>
+    <br>
+      <p id="BlogData"></p>
+      <br><br>
+    </div>
+</div>
+
+ <!-- Scripts -->
+<script src="./static/main.js"></script>
+<script src="./static/blog.js"></script>
+<script src="./static/loadPost.js"></script>
+<!-- Bottom Logo -->
+<img class="Logo" id="BackgroundIcon" style="height: 200px; position: absolute; right: 20px; bottom: 5em;" src="">
+
+<footer class="footer">
+
+    <!-- Add font awesome icons -->
+    <div id="socialMediaLinks">
+    </div>
+    <script src="./static/socialMediaLinks.js"></script>
+
+    <div class="container">
+    </div>
+</footer>
+</body>
+</html>

@@ -1,0 +1,17 @@
+{
+  "name": "BlogSite",
+  "version": "1.0.0",
+  "description": "*You can either run the Installer.bat or follow the instructions below*",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express.js": "^1.0.0",
+    "pm2": "^4.5.0"
+  }
+}
