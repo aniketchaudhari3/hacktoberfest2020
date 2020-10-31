@@ -1,0 +1,70 @@
+import re
+import random
+print("Enter your name: '')
+a=str(input{"())
+print=("Welcome to the game",a)
+easy=["bat","mat","cat","rat"]
+medium=["bulb","tube","cube","pulp"]
+hard=["spine","store","moron","crane"]
+def number(strnn):
+   if re.search('[O-9]',strnn)
+       print("you cannot enter numbers")
+   elif re.search('@#$',strnn)
+       print("you cannot enter special characters")
+while(1):
+    print("choose difficulty level" "\n 1.easy" "\n 2.medium" "\nhard")
+    a=int(input("enter the level number: ")
+    if a==1:
+         r=random.choice(easy)
+         print("guess the word from the medium level:",easy)
+         for i in range(0,3):
+             guess=str(input())
+             number(guess)
+             i=i+1
+             if guess==r:
+                  print("correct")
+                  break
+             else:
+                  print("incorrect")
+                  
+             if i==3:
+                  print("limit reached")
+                  print("correct word:",r)
+    elif a==2:
+ 
+         r=random.choice(medium)
+         print("guess the word from the medium level:",easy)
+         for i in range(0,3):
+             guess=str(input())
+             number(guess)
+             i=i+1
+             if guess==r:
+                  print("correct")
+                  break
+             else:
+                  print("incorrect")
+                  
+             if i==3:
+                  print("limit reached")
+                  print("correct word:",r)
+     elif a==3:
+         r=random.choice(hard)
+         print("guess the word from the medium level:",easy)
+         for i in range(0,3):
+             guess=str(input())
+             number(guess)
+             i=i+1
+             if guess==r:
+                  print("correct")
+                  break
+             else:
+                  print("incorrect")
+                  
+             if i==3:
+                  print("limit reached")
+                  print("correct word:",r)
+      ch=input("Do you want to continue?: y/n")
+      if(ch==n):
+             print("thank you for playing")
+             break
+     
